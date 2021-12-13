@@ -1,0 +1,14 @@
+﻿@model Movie 
+@{
+    ViewData["Title"] = "Movie Information";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p> This is our Movie display information</p>
+
+<div>
+    <partial name="_MoviePartial" view-data="ViewData" model="Model" />
+</div>
+
+ 
